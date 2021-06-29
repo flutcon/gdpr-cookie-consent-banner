@@ -1,6 +1,6 @@
 'use strict'
 
-exports.validate = function (choice, cookie) {
+export function validate(choice, cookie) {
   const choices = Object.keys(choice)
   const chosen = Object.keys(cookie.choices)
 
